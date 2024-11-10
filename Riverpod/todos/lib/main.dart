@@ -238,6 +238,8 @@ class TodoItem extends HookConsumerWidget {
     final textEditingController = useTextEditingController();
     final textFieldFocusNode = useFocusNode();
 
+    print("Building TodoItem for ${todo.id}");
+
     return Material(
       color: Colors.white,
       elevation: 6,
